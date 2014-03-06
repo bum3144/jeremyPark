@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>회원관리</title>
+<style>
+  #memberTable{
+   border : 1px solid darkKhaki;
+   font-family: Arial,sans-serif ;
+   height: 100% ;
+  }
+  tr:nth-Child(odd){
+   background-color: lightyellow; 
+  }
+  tr:first-Child{
+   background-color: Khaki; 
+  }
+  
+  #manImg{
+   border : 1px solid darkKhaki;
+  }
+</style>
+<script type="text/javascript" src="test.js"></script>
+</head>
+<body>
+<h1>회원목록</h1>
+
+<table id="memTable">
+<tr>
+<td>번호</td>
+<td>이름</td>
+<td>이메일</td>
+<td>전화</td>
+</tr>
+</table>
+
+<hr />
+<h2>회원정보</h2>
+
+<form id="memform" method="get" action="http://localhost:8080/web02/member/ajax/add.do">
+<div><img src="man.jpg" width="100"/></div>
+이름: <input type="text" id="name"><br/>
+이메일: <input type="text" id="name"><br/>
+암호: <input type="text" id="name"><br/>
+암호확인: <input type="text" id="name"><br/>
+전화: <input type="text" id="name"><br/>
+나이: <input type="text" id="age"><br/>
+이미지: <input type="file"><br/>
+<input type="submit" value="가입"> <input type="reset" value="취소"> <input type="button" value="수정"> <input type="button" value="삭제">
+
+</form>
+</body>
+</html>

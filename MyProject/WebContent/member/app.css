@@ -1,0 +1,39 @@
+@CHARSET "UTF-8";
+body{
+	margin: 30px;
+}
+
+#memberTable {
+  border: 1px solid DarkKhaki;
+}
+
+tr:nth-child(odd) {
+  background-color: lightyellow;
+}
+
+tr:first-child {
+  background-color: Khaki;
+}
+
+img {
+  border: 1px solid DarkKhaki;
+  width: 200px;
+}
+
+input {
+  border: 1px solid DarkKhaki;
+  width: 150px;
+  margin: 5px;
+}
+
+input #btnAdd,#btnUpdate,#btnDelete,#btnCancel {
+	width: 60px;
+}
+
+
+
+
+
+
+
+

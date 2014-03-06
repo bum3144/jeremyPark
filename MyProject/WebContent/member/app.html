@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>회원관리</title>
+<link rel="stylesheet" href="app.css">
+<script type="text/javascript" src="bit.js"></script>
+<script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+<h1>회원 목록</h1>
+<table id="memberTable">
+<tr>
+  <th>번호</th>
+  <th>이름</th>
+  <th>이메일</th>
+  <th>전화</th>
+  <th>삭제</th>
+</tr>
+</table>
+
+<hr>
+<h2>회원정보</h2>
+<img src="man.jpg" id="manImg" width="100px" /><br/>
+<form id="memberForm">
+<span style='display:none;' id='noSpan'>번 호 : <input id='no' type='text' readonly><br></span>
+이 름 : <input id='name' type='text'><br>
+이메일:<input id='email' type='text'><br>
+암 호 : <input id='pass1' type='password'><br>
+암 호 : <input id='pass2' type='password'><br>
+전 화 : <input id='tel' type='text'><br>
+나 이 : <input id='age' type='text'><br>
+<input id='btnAdd' type='submit' value='등록'>
+<input id='btnUpdate' type='button' value='수정' style='display:none;'>
+<input id='btnDelete' type='button' value='삭제' style='display:none;'>
+<input id='btnCancel' type='reset' value='취소' style='display:none;'>
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
